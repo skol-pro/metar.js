@@ -7,7 +7,7 @@
         "test": "eslint metar.js test/*.js && jest"
     },
     "repository": "https://github.com/skol-pro/metar.js",
-    "author": "Skol",
+    "author": "Esa-Matti Suuronen",
     "license": "MIT",
     "devDependencies": {
         "eslint": "^3.17.0",
