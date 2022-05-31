@@ -300,9 +300,11 @@
     METAR.prototype.parseRunwayVisibility = function() {
         if (this.result.cavok) return;
         if (this.peek().match(/^R[0-9]+/)) {
+            this.result.rvr = this.result.rvr || [];
+            this.result.rvr.push(parseRVR(this.current));
+
             this.next();
-            this.result.rvr = parseRVR(this.current);
-            // TODO: peek is more than one RVR in METAR and parse
+            this.parseRunwayVisibility();
         }
     };
 
