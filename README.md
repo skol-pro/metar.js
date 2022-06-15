@@ -72,6 +72,10 @@ console.log(parseMETAR("EFJY 171950Z AUTO 27006KT 220V310 9999 FEW012 SCT015 BKN
 
 # Changelog
 
+## 1.1.1
+
+- Added default wind unit to KT (METAR case: ENMH 030250Z VRB03 CAVOK 07/04 Q1017)
+
 ## 1.1.0
 
 - Runways are now all parsed (.rvr)
