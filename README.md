@@ -72,6 +72,10 @@ console.log(parseMETAR("EFJY 171950Z AUTO 27006KT 220V310 9999 FEW012 SCT015 BKN
 
 # Changelog
 
+## 1.1.2
+
+- Made dew point null aware
+
 ## 1.1.1
 
 - Added default wind unit to KT (METAR case: ENMH 030250Z VRB03 CAVOK 07/04 Q1017)
